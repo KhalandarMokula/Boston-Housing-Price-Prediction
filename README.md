@@ -38,9 +38,8 @@ This Projects uses the following softwares and libraries:
 
 # Description
 
-The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its features,
-Here I have loaded the data from scikit-learn library ,transformed the data into the DataFrame containing 14 attributes including 'MEDV',the target variable(Dependent Vaariable).
+The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its featurestarget variable(Dependent Vaariable).
 
-- For complete Details go through .ipynb notebook.
+- You can find complete code and details in .ipynb notebook.
 
 
