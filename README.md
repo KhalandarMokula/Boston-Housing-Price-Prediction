@@ -1,5 +1,6 @@
 # Boston-Housing-Price-Prediction
 # Introduction
+
 This is a basic Machine Learning Project dealing in Predicting Housing Prices in the city of Boston, the capital of Massachusetts in the United States. The dataset (Boston Housing Price) was taken from the StatLib library which is maintained at Carnegie Mellon University and is freely available for download from the UCI Machine Learning Repository or we can load it directly from scikit-learn Library. The dataset consists of 506 observations of 14 attributes(features). The median value of house price in $10000s, denoted by MEDV, is the outcome or the dependent variable in our model. Below is a brief description of each feature and the outcome in our dataset: Variables:
 
 *1.CRIM – per capita crime rate by town
@@ -18,6 +19,7 @@ This is a basic Machine Learning Project dealing in Predicting Housing Prices in
 *14.MEDV – Median value of owner-occupied homes in $10000’s
 
 #Softwares and Libraries
+
 This Projects uses the following softwares and libraries:
 * Jupyter Notebook
 * Python
@@ -28,12 +30,14 @@ This Projects uses the following softwares and libraries:
 * scikit-learn
 
 #Machine Learning Models used
-*In this project i have implemented a Basic Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
-*LinearRegression Model from scikit-learn library.
+
+-In this project i have implemented a Basic Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
+**LinearRegression Model from scikit-learn library.
 *DecisionTree Regression Model from scikit-learn library.
 *Random Forest Regression Model from scikit-learn library.
 
 #Description
+
 The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its features,
 Here I have loaded the data from scikit-learn library ,transformed the data into the DataFrame containing 14 attributes including 'MEDV',the target variable(Dependent Vaariable).
 Next, I have performed Exploratory Data Analysis using seaborn(regression plot, box plot, heatmap, distplot) and matplotlib(subplots)
