@@ -18,7 +18,7 @@ This is a basic Machine Learning Project dealing in Predicting Housing Prices in
 * 13.LSTAT - % lower status of the population 
 * 14.MEDV – Median value of owner-occupied homes in $10000’s
 
-#Softwares and Libraries
+# Softwares and Libraries
 
 This Projects uses the following softwares and libraries:
 * Jupyter Notebook
@@ -31,7 +31,7 @@ This Projects uses the following softwares and libraries:
 
 # Machine Learning Models used
 
--In this project i have implemented a Basic Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
+* In this project i have implemented a Basic Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
 * LinearRegression Model from scikit-learn library.
 * DecisionTree Regression Model from scikit-learn library.
 * Random Forest Regression Model from scikit-learn library.
@@ -40,14 +40,14 @@ This Projects uses the following softwares and libraries:
 
 The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its features,
 Here I have loaded the data from scikit-learn library ,transformed the data into the DataFrame containing 14 attributes including 'MEDV',the target variable(Dependent Vaariable).
-Next, I have performed Exploratory Data Analysis using seaborn(regression plot, box plot, heatmap, distplot) and matplotlib(subplots)
+Next, I have performed Exploratory Data Analysis using seaborn(regression plot, box plot, heatmap, distplot) and matplotlib(subplots).
 You can find the observations of analysis in the .ipynb notebook here in the repository.
 Then, I have divided the data into train and test set using sklearn's train_test_split.
 Next, I trained my linear_regression model implemented from scratch -performed gradient descent , then i evaluated the models performance on the test set using Mean Squared Error, Root Mean Squared error and Rsquared evaluation metrics.
 Then i went on and trained Decision Tree and Random Forest models on train set and evaluated respective model performances on test set.
-Next, I performed GridSearch with KFold CrossValidation taking RandomForest  model on Entires dataset, later on on basis of analysis of data obatined in Data Analysis step
+Next, I performed GridSearch with KFold CrossValidation taking RandomForest  model on Entires dataset, later on on basis of analysis of data obatined in Data Analysis step.
 I have removed some of the outliers and features and trained the RandomForest model on resulatant data.
 Finally, after all the data exploartion and training various models RandomForest Model with n_estimators=100 gave me the best performance.
-For complete Details go through .ipynb notebook.
+-For complete Details go through .ipynb notebook.
 
 
