@@ -31,14 +31,14 @@ This Projects uses the following softwares and libraries:
 
 # Machine Learning Models used
 
-* In this project i have implemented a Basic Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
+* In this project i have implemented a Linear Regression Model from scratch with gradient descent as an optimization technique and RSquared(r2score)  and Root Mean Squared(RMSE) error as evaluation metrics.
 * LinearRegression Model from scikit-learn library.
 * DecisionTree Regression Model from scikit-learn library.
 * Random Forest Regression Model from scikit-learn library.
 
 # Description
 
-The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its featurestarget variable(Dependent Vaariable).
+The Aim is to analyze the data(Boston Housing) ,build a model that best performs on the data and to predict value of a house given its features.
 
 - You can find complete code and details in .ipynb notebook.
 
