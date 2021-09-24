@@ -1,7 +1,7 @@
 # Boston-Housing-Price-Prediction
 # Introduction
 
-This is a basic Machine Learning Project dealing in Predicting Housing Prices in the city of Boston, the capital of Massachusetts in the United States. The dataset (Boston Housing Price) was taken from the StatLib library which is maintained at Carnegie Mellon University and is freely available for download from the UCI Machine Learning Repository or we can load it directly from scikit-learn Library. The dataset consists of 506 observations of 14 attributes(features). The median value of house price in $10000s, denoted by MEDV, is the outcome or the dependent variable in our model. Below is a brief description of each feature and the outcome in our dataset: Variables:
+This is a  Machine Learning Project dealing in Predicting Housing Prices in the city of Boston, the capital of Massachusetts in the United States. The dataset (Boston Housing Price) was taken from the StatLib library which is maintained at Carnegie Mellon University and is freely available for download from the UCI Machine Learning Repository or we can load it directly from scikit-learn Library. The dataset consists of 506 observations of 14 attributes(features). The median value of house price in $10000s, denoted by MEDV, is the outcome or the dependent variable in our model. Below is a brief description of each feature and the outcome in our dataset: Variables:
 
 * 1.CRIM – per capita crime rate by town
 * 2.ZN – proportion of residential land zoned for lots over 25,000 sq.ft
@@ -9,12 +9,12 @@ This is a basic Machine Learning Project dealing in Predicting Housing Prices in
 * 4.NOX – nitric oxides concentration (parts per 10 million)
 * 5.RM – average number of rooms per dwelling
 * 6.AGE – proportion of owner-occupied units built prior to 1940
-* 7.DIS – weighted distances to five BostLSTAT - % lower status of the population on employment centres
+* 7.DIS – weighted distances to five Boston employment centres
 * 8.RAD – index of accessibility to radial highways
 * 9.INDUS – proportion of non-retail business acres per town
 * 10.TAX – full-value property-tax rate per $10,000
 * 11.PTRATIO – pupil-teacher ratio by town
-* 12.B – 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town 13. LSTAT – % lower status of the population
+* 12.B – 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town 
 * 13.LSTAT - % lower status of the population 
 * 14.MEDV – Median value of owner-occupied homes in $10000’s
 
